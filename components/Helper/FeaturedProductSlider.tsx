@@ -33,12 +33,47 @@ const FeaturedProductSlider = () => {
             responsive={responsive}
             itemClass='item'>
             <ProductCard 
-            title='Creatina Integral Medica' 
+            title='Creatina Integral Médica' 
             actualPrice='100.00'
             cifrao='R$' 
             discountPrice='90.00' 
-            category='Suplemento' 
+            category='Creatina' 
             image="/image/creatinaIntegral.jpg" />
+            <ProductCard 
+            title='Creatina Monohidratada Growth' 
+            actualPrice='99.00'
+            cifrao='R$' 
+            discountPrice='88.00' 
+            category='Creatina' 
+            image="/image/creatinaMax.jpg" />
+            <ProductCard 
+            title='Creatina Monohidratada Max Titanium' 
+            actualPrice='120.00'
+            cifrao='R$' 
+            discountPrice='100.00' 
+            category='Creatina' 
+            image="/image/creatinaGrowth.jpg" />
+            <ProductCard 
+            title='Whey 100% Integral medica' 
+            actualPrice='122.00'
+            cifrao='R$' 
+            discountPrice='110.00' 
+            category='Proteina' 
+            image="/image/wheyIntegral.jpg" />
+            <ProductCard 
+            title='Whey concentrado Growth' 
+            actualPrice='110.00'
+            cifrao='R$' 
+            discountPrice='99.00' 
+            category='Proteina' 
+            image="/image/wheyGrowth.jpg" />
+            <ProductCard 
+            title='Whey 100% Max Titanium' 
+            actualPrice='130.00'
+            cifrao='R$' 
+            discountPrice='100.00' 
+            category='Proteina' 
+            image="/image/wheyMax.jpg" />
         </Carousel>
     )
 }
