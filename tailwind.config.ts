@@ -8,9 +8,6 @@ const config: Config = {
   ], 
   theme: {
     extend: {
-      colors:{
-        'custom-green':'#1A3827'
-      },
       fontFamily:{
         primary:['Anta', 'sans-serif']
       }

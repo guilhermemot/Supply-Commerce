@@ -2,7 +2,6 @@ import Hero from '@/components/Hero';
 import Nav from '@/components/Nav';
 import React from 'react';
 import FeaturedProducts from '../components/FeaturedProducts';
-import TopProduct from '@/components/TopProduct';
 
 const HomePage = () =>{
   return (
@@ -10,8 +9,7 @@ const HomePage = () =>{
     <Nav/>
     <Hero/>
     <FeaturedProducts/>
-    <TopProduct/>
-    {/* Top Products */}
+    {/* Feature products */}
   </div>
   );
 };
