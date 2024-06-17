@@ -20,7 +20,7 @@ const ProductCard = ({title,image,discountPrice,category,actualPrice,cifrao}:Pro
         alt={title} 
         width={350} 
         height={200} 
-        className='w-[100%] h-[100%] object-contain md:w-[90%] md:h-[90%] shadow-lg '/>
+        className='w-[100%] h-[100%] object-contain md:w-[100%] md:h-[100%] shadow-lg '/>
       </div>
       <div className='mt-[1rem] ml-2 w-[100%] md:w-[95%]'>
         <div className='flex items-center justify-between'>

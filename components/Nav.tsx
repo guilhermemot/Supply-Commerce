@@ -6,7 +6,7 @@ const Nav = () => {
     return (
         <div className="h-[13vh] bg-green-600">
             <div className="w-[95%] md:w-[80%] mx-auto h-[100%] flex items-center justify-between">
-                <div>
+                <div className="object-contain">
                     <Image src="/image/logo.png" alt="logo" width={140} height={140} />
                 </div>
                 <div className="h-[50%] hidden flex-[0.7] overflow-hidden bg-gray-200 rounded-md md:flex items-center">
