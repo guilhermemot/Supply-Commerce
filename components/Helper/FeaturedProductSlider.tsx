@@ -40,14 +40,14 @@ const FeaturedProductSlider = () => {
             category='Creatina' 
             image="/image/creatinaIntegral.jpg" />
             <ProductCard 
-            title='Creatina Monohidratada Growth' 
+            title='Creatina Monohidratada Max titanium' 
             actualPrice='99.00'
             cifrao='R$' 
             discountPrice='88.00' 
             category='Creatina' 
             image="/image/creatinaMax.jpg" />
             <ProductCard 
-            title='Creatina Monohidratada Max Titanium' 
+            title='Creatina Monohidratada Growth' 
             actualPrice='120.00'
             cifrao='R$' 
             discountPrice='100.00' 

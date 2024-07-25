@@ -3,6 +3,7 @@ import Nav from '@/components/Nav';
 import React from 'react';
 import FeaturedProducts from '../components/FeaturedProducts';
 import TopProduct from '@/components/TopProduct';
+import BestSeller from '@/components/BestSeller';
 
 const HomePage = () =>{
   return (
@@ -11,7 +12,7 @@ const HomePage = () =>{
     <Hero/>
     <FeaturedProducts/>
     <TopProduct/>
-    {/* Top Products */}
+    <BestSeller/>
   </div>
   );
 };
