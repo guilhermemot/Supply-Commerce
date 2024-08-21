@@ -4,6 +4,7 @@ import React from 'react';
 import FeaturedProducts from '../components/FeaturedProducts';
 import TopProduct from '@/components/TopProduct';
 import BestSeller from '@/components/BestSeller';
+import News from '@/components/News';
 
 const HomePage = () =>{
   return (
@@ -13,6 +14,7 @@ const HomePage = () =>{
     <FeaturedProducts/>
     <TopProduct/>
     <BestSeller/>
+    <News/>
   </div>
   );
 };
