@@ -13,7 +13,7 @@ interface Props{
 
 const ProductCard = ({title,image,discountPrice,category,actualPrice,cifrao}:Props) => {
   return (
-    <div className=' bg-white rounded object-contain md:w-[95%] md:h-[100%]'>
+    <div className=' bg-white rounded object-contain md:w-[95%] md:h-[100%] p-4'>
       <div className='w-[100%] h-[200px]'>
         <Image 
         src={`${image}`} 

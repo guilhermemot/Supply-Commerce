@@ -16,7 +16,7 @@ const NewsCard = ({ image, title, details }: Props) => {
         <div className='col-span-4'>
             <h1 className='text-[22px] mb-[1rem] text-black capitalize'>{title}</h1>
             <div className='flex mb-[0.4rem] items-center space-x-2 bg-4f772d'>
-                <h1 className='text-[11px] mb-[1rem] text-black opacity-2'>{details}</h1>
+                <h1 className='text-[14px] mb-[1rem] text-black opacity-2'>{details}</h1>
             </div>
         </div>
     </>
