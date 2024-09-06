@@ -5,6 +5,7 @@ import FeaturedProducts from '../components/FeaturedProducts';
 import TopProduct from '@/components/TopProduct';
 import BestSeller from '@/components/BestSeller';
 import News from '@/components/News';
+import Contact from '@/components/Contact';
 
 const HomePage = () =>{
   return (
@@ -15,6 +16,7 @@ const HomePage = () =>{
     <TopProduct/>
     <BestSeller/>
     <News/>
+    <Contact/>
   </div>
   );
 };
